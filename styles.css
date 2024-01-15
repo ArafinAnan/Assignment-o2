@@ -36,8 +36,8 @@ border-radius: 16px;
 text-align: center;
 padding-top: 35px;
 margin: 0 auto;
-font-size: 15px;
 }
+h2{ font-size: 40px;}
 .all-butt{ display: inline-flex;
     gap: 24px;
 }
@@ -54,25 +54,25 @@ font-size: 15px;
 display: flex;
 margin: 0 auto;
 height: 550px;
-
+align-items: center;
+justify-content: center;
 
 
 
 }
 .mountain-text{
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; 
-padding-right: 30px;/* 162.5% */
-}
+padding-right: 30px;}/* 162.5% */
 .button{
     color: white;
     background-color: #FF5400;
     border: 0;
-    border-radius: 2px;
+    border-radius: 8px;
     font-weight: 500;
     width: 174px;
     height: 52px;
@@ -86,17 +86,50 @@ padding-right: 30px;/* 162.5% */
 .Destination-text{
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 26px;
     padding-top: 50px;
 }
 .images{
-   
+   align-items: center;
+   justify-content: center;
     
 }
 .row-1{
     display: flex;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.row-2{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.row-3{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+h1{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.dolor{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
 }
